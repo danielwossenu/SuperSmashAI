@@ -3,7 +3,7 @@ import sys
 import numpy as np
 import cv2
 
-im = cv2.imread('damage3.png')
+im = cv2.imread('damage4.png')
 im3 = im.copy()
 
 gray = cv2.cvtColor(im,cv2.COLOR_BGR2GRAY)
@@ -27,7 +27,7 @@ for cnt in contours:
     if cv2.contourArea(cnt)>50:
         [x,y,w,h] = cv2.boundingRect(cnt)
 
-        if  h>30 and h< 40 and w>20 and w<30:
+        if  h>30 and h< 40 and w>10 and w<30:
             print(w)
             cv2.rectangle(im,(x,y),(x+w,y+h),(0,0,255),2)
             roi = thresh[y:y+h,x:x+w]
