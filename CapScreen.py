@@ -4,6 +4,7 @@ import cv2
 import tensorflow as tf
 from PIL import ImageGrab
 import sys
+from OCR_Damage import digitOCR
 import os.path
 a = np.array([1,2])
 
@@ -16,7 +17,7 @@ else:
     samples = np.empty((0, 100))
     responses = []
 
-
+OCR = digitOCR()
 keys = [i for i in range(48, 58)]
 previous_image = None
 while True:
@@ -48,9 +49,10 @@ while True:
                 cv2.rectangle(screen, (x, y), (x + w, y + h), (0, 0, 255), 2)
                 roi = thresh[orig_y:orig_y + h, orig_x:orig_x + w]
                 roismall = cv2.resize(roi, (10, 10), interpolation = cv2.INTER_CUBIC)
+                print(OCR.predict(roismall.reshape((1, 100))))
                 cv2.imshow('window', cv2.cvtColor(screen, cv2.COLOR_BGR2RGB))
                 key = cv2.waitKey(0)
-                print(key)
+                # print(key)
 
                 if key == 27:  # (escape to quit)
                     # sys.exit()
@@ -60,7 +62,9 @@ while True:
                     mistake = responses.pop()
                     np.delete(samples,-1,0)
                 if key == 110: # 'n', which means "no number, skip"
-                    pass
+                    responses.append(int(10))
+                    sample = roismall.reshape((1, 100))
+                    samples = np.append(samples, sample, 0)
                 if key == 112:
                     print('p')
                     cv2.imwrite('C:/Users/Daniel/Desktop/NewSmash/previous.PNG', previous_image)
@@ -78,8 +82,8 @@ responses = np.array(responses, np.float32)
 responses = responses.reshape((responses.size, 1))
 print("training complete")
 
-np.savetxt('damagedigits.data', samples)
-np.savetxt('damagelabels.data', responses)
+# np.savetxt('damagedigits.data', samples)
+# np.savetxt('damagelabels.data', responses)
 
 
     # printscreen_numpy = np.array(printscreen_pil.getdata(), dtype='uint8').reshape((printscreen_pil.size[1],printscreen_pil.size[0],3))
