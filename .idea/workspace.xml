@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58919158-630a-4406-98cd-431955f5f043" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OCR_Damage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestOCR.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CapScreen.py" afterPath="$PROJECT_DIR$/CapScreen.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestOCR.py" afterPath="$PROJECT_DIR$/TestOCR.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampleDigits2.py" afterPath="$PROJECT_DIR$/sampleDigits2.py" />
     </list>
     <ignored path="NewSmash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="recordInputs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recordInputs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="keyTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keyTest.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,8 +50,8 @@
       <file leaf-file-name="CapScreen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CapScreen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="51" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="15" />
+            <state relative-caret-position="242">
+              <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -73,9 +62,11 @@
       <file leaf-file-name="TestOCR.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestOCR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1276">
+              <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +86,8 @@
       <file leaf-file-name="sampleDigits2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sampleDigits2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+            <state relative-caret-position="-107">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -122,9 +113,9 @@
         <option value="$PROJECT_DIR$/recordInputs.py" />
         <option value="$PROJECT_DIR$/keyTest.py" />
         <option value="$PROJECT_DIR$/sampleDigit.py" />
-        <option value="$PROJECT_DIR$/sampleDigits2.py" />
         <option value="$PROJECT_DIR$/OCR_Damage.py" />
         <option value="$PROJECT_DIR$/CapScreen.py" />
+        <option value="$PROJECT_DIR$/sampleDigits2.py" />
         <option value="$PROJECT_DIR$/TestOCR.py" />
       </list>
     </option>
@@ -188,7 +179,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3/pkgs/opencv3-3.1.0-py35_0/Lib" />
   </component>
-  <component name="RunManager" selected="Python.CapScreen">
+  <component name="RunManager" selected="Python.sampleDigits2">
     <configuration default="false" name="CapScreen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,23 +214,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="keyTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NewSmash" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keyTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="sampleDigits2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,6 +244,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NewSmash" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OCR_Damage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestOCR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NewSmash" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestOCR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -411,17 +402,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.CapScreen" />
       <item index="1" class="java.lang.String" itemvalue="Python.sampleDigit" />
-      <item index="2" class="java.lang.String" itemvalue="Python.keyTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sampleDigits2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.OCR_Damage" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sampleDigits2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.OCR_Damage" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TestOCR" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.CapScreen" />
-        <item index="1" class="java.lang.String" itemvalue="Python.OCR_Damage" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sampleDigits2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sampleDigit" />
-        <item index="4" class="java.lang.String" itemvalue="Python.keyTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TestOCR" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sampleDigits2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.CapScreen" />
+        <item index="3" class="java.lang.String" itemvalue="Python.OCR_Damage" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sampleDigit" />
       </list>
     </recent_temporary>
   </component>
@@ -460,19 +451,26 @@
       <option name="project" value="LOCAL" />
       <updated>1501906849072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ocr class made adn working at about 95%">
+      <created>1501952860845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501952860845</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2483871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33561644" sideWeight="0.5043011" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33561644" sideWeight="0.49569893" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33561644" sideWeight="0.49569893" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -501,7 +499,8 @@
     <MESSAGE value="grabs the screen and finds the numbers for damage" />
     <MESSAGE value="added code to present me with a new boxed number and wait for me to identify what it is, records it, and presents a new one. Does not save the samples and responses, yet." />
     <MESSAGE value="added code to save the digits and the labels" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code to save the digits and the labels" />
+    <MESSAGE value="ocr class made adn working at about 95%" />
+    <option name="LAST_COMMIT_MESSAGE" value="ocr class made adn working at about 95%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -651,16 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampleDigits2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OCR_Damage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -673,8 +662,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CapScreen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="51" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="15" />
+        <state relative-caret-position="242">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/damage3.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/damage4.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/damage2.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/damage.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampleDigits2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -683,9 +702,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestOCR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1276">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

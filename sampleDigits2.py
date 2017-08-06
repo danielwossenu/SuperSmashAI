@@ -9,8 +9,8 @@ import os.path
 orig_screen = cv2.imread('previous.png')
 screen = orig_screen.copy()
 damage = screen[-70:-20, 10:270, :]
-damage_p1 = screen[-70:-20, 10:115, :]
-damage_p2 = screen[-70:-20, 165:270, :]
+damage_p1 = screen[-60:-20, 34:120, :]
+damage_p2 = screen[-60:-20, 165:270, :]
 
 gray = cv2.cvtColor(damage, cv2.COLOR_BGR2GRAY)
 blur = cv2.GaussianBlur(gray, (1, 1), 0)
@@ -18,7 +18,7 @@ thresh = cv2.adaptiveThreshold(blur, 255, 1, 1, 11, 2)
 
 image, contours, heirarchy = cv2.findContours(thresh, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
 
-cv2.imshow('window', blur)
+cv2.imshow('window', damage_p2)
 cv2.waitKey(0)
 
 for cnt in contours:
